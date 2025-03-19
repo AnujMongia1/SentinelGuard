@@ -1,6 +1,6 @@
-#  Sentinel Guard
+# CyberSentinel Project
 
-This project involved creating a **Security Operations Center (SOC)** by deploying **Microsoft Sentinel**, a **cloud-native SIEM (Security Information and Event Management)** platform. The system monitors and manages security events, generates alerts for potential threats, and integrates **MITRE ATT&CK framework** for security incident management. The entire setup is built on **Microsoft Azure** and simulates a real-world environment to test cybersecurity measures.
+This project involved creating a **Security Operations Center (SOC)** by deploying **Microsoft Sentinel**, a **cloud-native SIEM (Security Information and Event Management)** platform. The system monitors and manages security events, generates alerts for potential threats, and integrates the **MITRE ATT&CK framework** for security incident management. The entire setup is built on **Microsoft Azure** and simulates a real-world environment to test cybersecurity measures.
 
 ## Project Overview
 
@@ -10,13 +10,28 @@ Key highlights of this project include the integration of an **Azure Virtual Mac
 
 ### Key Features:
 
-- **Security Information and Event Management (SIEM)**: Built using **Microsoft Sentinel**, a cloud-native SIEM platform that enables the monitoring, and analysis of security event data across various endpoints and systems.
+- **Security Information and Event Management (SIEM)**: Built using **Microsoft Sentinel**, a cloud-native SIEM platform that enables the monitoring and analysis of security event data across various endpoints and systems.
 - **Virtual Machine (VM) Simulation**: Deployed a **Windows Virtual Machine** on **Microsoft Azure** to simulate a real-world environment, with **RDP ports exposed** to attract potential security incidents, such as brute-force attacks and unauthorized logins.
 - **Custom Alerting System**: Designed and implemented alert rules using the **MITRE ATT&CK framework** to monitor for specific threats such as unauthorized **RDP logins**. These alerts help to detect potential security incidents and vulnerabilities in real-time.
-- **Threat Intelligence Integration**: Continuously monitors for **indicators of compromise (IOCs)**. The system is capable of generating alerts based on new threats as they are discovered.
 - **Real-Time Event Ingestion**: Configured **data connectors** to ingest security events from the deployed **VM** into **Microsoft Sentinel**, enabling real-time data analysis and efficient incident tracking.
-- **Automation and Alert Escalation**: Added an automated workflow to escalate **medium-severity security events** (such as **initial access** or RDP login attempts) to **high severity** when certain thresholds are met, ensuring critical incidents are prioritized for investigation and response. This automation ensures that high-priority events are never overlooked.
-- **Incident Response Workflow**: Developed a detailed incident response framework to investigate and handle triggered alerts. Incorporated automated responses to address potential threats based on the severity and type of attack detected.
+- **Automation and Alert Escalation**: Added an automated workflow to escalate **medium-severity security events** (such as **initial access** or RDP login attempts) to **high severity** when certain thresholds are met, ensuring critical incidents are prioritized for investigation and response.
+
+## Screenshots
+
+Here are some screenshots of the **Microsoft Sentinel** environment:
+
+1. **Sentinel Overview**:
+
+   ![Sentinel Overview 1](Images/Sentinel_Overview_1.png)
+   ![Sentinel Overview 2](Images/Sentinel_Overview_2.png)
+
+2. **Sentinel Incidents**:
+
+   ![Sentinel Incidents](Images/Sentinel_Incidents.png)
+
+3. **Sentinel Security Events Logs**:
+
+   ![Sentinel Security Events Logs](Images/Sentinel_Logs.png)
 
 ## Technologies Used
 
