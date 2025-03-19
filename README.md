@@ -1,4 +1,4 @@
-# CyberSentinel Project
+# Sentinel Guard
 
 This project involved creating a **Security Operations Center (SOC)** by deploying **Microsoft Sentinel**, a **cloud-native SIEM (Security Information and Event Management)** platform. The system monitors and manages security events, generates alerts for potential threats, and integrates the **MITRE ATT&CK framework** for security incident management. The entire setup is built on **Microsoft Azure** and simulates a real-world environment to test cybersecurity measures.
 
